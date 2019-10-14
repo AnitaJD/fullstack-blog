@@ -4,7 +4,8 @@
   "description": "simple blog",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "blog",
@@ -14,6 +15,10 @@
   "author": "AnitaJD",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
   }
 }
